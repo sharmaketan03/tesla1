@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    word-spacing:0.3rem;
+}
+header{
+       display:flex;
+       justify-content:space-between;
+       padding:1rem;
+       position: fixed;
+}
+.capital{
+    text-transform:capitalize;
+}
+a{
+    text-decoration:none;
+    margin:1rem;
+    font-size:20px;
+    color:#000;
+}
+ul{
+    display:flex;
+    list-style-type:none;
+    margin:0 1rem 0  14rem;
+}
+.img{
+    background-repeat:no-repeat;
+    background-attachment: scroll;
+   background-position: center;
+    background-size:cover;
+    height:100vh;
+}
+.center{
+    text-align:center;
+    font-size: 40px;
+    text-transform:capitalize;
+}
+.center1{
+    text-align:center;
+    padding:5rem 0 0 0;
+}
+.box{
+    position:relative;
+   bottom:-59%;
+   font-size:medium;
+    font-weight:lighter;
+}
+ .box1{
+    position:absolute;
+    top:0;
+    left:31%;
+    background-color:#494646;
+    color:#fff;
+    border-radius:40px;
+    width:250px;
+    height:40px;
+    text-transform: capitalize;
+}
+.box2{
+    position:absolute;
+    left:49%;
+    background-color:#fff;
+    color:#000;
+    border-radius:40px;
+    width:250px;
+    height:40px;
+    text-transform: capitalize;
+}
+.box3{
+    position:absolute;
+    left:28rem;
+    bottom:-7rem;
+    background-color:#4c4b4b;
+    color:#fff;
+    border-radius:40px;
+    width:250px;
+    height:40px;
+    text-transform: capitalize;
+}
+.box4{
+    position:absolute;
+    left:45.5rem;
+    bottom:-7rem;
+    background-color:#fff;
+    color:#000;
+    border-radius:40px;
+    width:250px;
+    height:40px;
+    text-transform: capitalize;
+}
+#img1{
+    background-image: url(model-3.jpg); }
+#img2{
+    background-image:url(model-y.jpg);
+}
+#img3{
+    background-image: url(model-s.jpg);
+}
+#img4{
+    background-image: url(model-x.jpg);
+}
+#img5{
+    background-image: url(solar-panel.jpg);
+}
+#img6{
+    background-image: url(solar-roof.jpg);
+}
+#img7{
+    background-image: url(accessories.jpg);
+}
+.box5{
+     position:absolute;
+     left:41rem;
+     bottom:-8rem;
+     background-color:#4d4c4c;
+     color:#fff;
+     border-radius:40px;
+    width:250px;
+    height:40px;
+    font-weight: lighter;
+}
+    
+    
