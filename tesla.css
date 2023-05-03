@@ -3,27 +3,31 @@
     padding: 0;
     box-sizing: border-box;
     word-spacing:0.3rem;
+    font-family: 'Roboto', sans-serif;
 }
 header{
        display:flex;
        justify-content:space-between;
        padding:1rem;
        position: fixed;
+       width:100%;
 }
 .capital{
     text-transform:capitalize;
 }
 a{
     text-decoration:none;
-    margin:1rem;
+    margin:0 1rem;
     font-size:20px;
     color:#000;
+    display:block;
+   
 }
-ul{
+#flx{
     display:flex;
     list-style-type:none;
-    margin:0 1rem 0  14rem;
 }
+
 .img{
     background-repeat:no-repeat;
     background-attachment: scroll;
@@ -70,7 +74,7 @@ ul{
 .box3{
     position:absolute;
     left:28rem;
-    bottom:-7rem;
+    bottom:-5rem;
     background-color:#4c4b4b;
     color:#fff;
     border-radius:40px;
@@ -81,7 +85,7 @@ ul{
 .box4{
     position:absolute;
     left:45.5rem;
-    bottom:-7rem;
+    bottom:-5rem;
     background-color:#fff;
     color:#000;
     border-radius:40px;
@@ -111,7 +115,7 @@ ul{
 }
 .box5{
      position:absolute;
-     left:41rem;
+     left:40rem;
      bottom:-8rem;
      background-color:#4d4c4c;
      color:#fff;
@@ -120,5 +124,32 @@ ul{
     height:40px;
     font-weight: lighter;
 }
+.bold{
+    font-weight:bold;
+}
+/* .mainmenu li{
+    position:relative;
+}
+.submenu{
+    position:absolute;
+    top:-16px;
+    left:9rem;
+    height:100vh;
+    width:350px;
+    background-color:rgba(255,255,255,1);
+    border-radius:1px;
+    padding:5rem;
     
-    
+}
+.submenu li a{
+   
+    display:block;
+    margin:2rem;
+   
+}
+.mainmenu li:hover .submenu{
+    left:-11rem;
+}
+.rightside{
+   margin:0 5rem;
+} */
